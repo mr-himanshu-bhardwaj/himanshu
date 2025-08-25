@@ -10,7 +10,7 @@ from sklearn.metrics import accuracy_score
 # Get the absolute path to the current file (model.py)
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 # Build the full path to the CSV file
-file_path = os.path.join(BASE_DIR, "dataset", r"C:\Users\BHARDWAJ\Desktop\Fake_vs_Real_News\datasets\fake_news_dataset.csv")
+file_path = os.path.join(BASE_DIR, "dataset", r"C:\Users\BHARDWAJ\Downloads\Fake_vs_Real_News\datasets\fake_news_dataset.csv")
 # Load the CSV file safely
 news = pd.read_csv(file_path, encoding='latin1')
 
